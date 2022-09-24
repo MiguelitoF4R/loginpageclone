@@ -1,0 +1,217 @@
+html{
+    height: 100%;
+}
+
+
+body{
+  height: 100%;
+  margin: 0;  
+}
+
+
+#container{
+    height: 100%;
+    display: flex;
+}
+
+
+#esquerda{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#signIn{
+    display: flex;
+}
+
+
+#title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+#iconsPos{
+    display: flex;
+    padding: 20px;
+}
+
+
+.icons{
+    height: 40px;
+    width: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+#iconFb{
+    padding: 4px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+
+#iconFb:hover{
+    border: solid 1px black;
+    transform: scale(1.05);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+
+#iconIg{
+    padding: 4px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+
+#iconIg:hover{
+    border: solid 1px black;
+    transform: scale(1.05);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+
+#iconTw{
+    padding: 4px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#iconTw:hover{
+    border: solid 1px black;
+    transform: scale(1.05);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+
+#accountCredentials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#useAccount{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.inputs{
+    background-color: rgb(221, 221, 221);
+    border: 0;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 400px;
+    padding-left: 30px;
+}
+
+#forgotAndSignin{
+    display: flex;
+    flex-direction: column;
+}
+
+#forgotPassword{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+#forgotPass{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#signInButton{
+    border-radius: 20px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color:  rgb(240, 32, 49);
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+#signInButton:hover{
+        background-color: orangered;
+        color: whitesmoke;
+        transition: 250ms;
+        transform: scale(1.1);
+}
+
+
+#direita{
+    background-color: rgb(240, 32, 49);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heyFriend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+#description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 150px;
+}
+
+#signUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signUpButton{
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#signUpButton:hover{
+    background-color: white;
+    color: black;
+    transition: 300ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
